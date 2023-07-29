@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function hideLoadingScreen() {
     var loadingScreen = document.getElementById("loadingScreen");
     loadingScreen.style.opacity = 0; // Set the opacity to 0 for fade-out effect
-    loadingScreen.style.transform = "scale(1)"; // Set the scale to zoom-out effect
+    loadingScreen.style.transform = "scale(3.6)"; // Set the scale to zoom-out effect
   
     // After the animation completes, remove the loading screen from the DOM
     setTimeout(function() {
