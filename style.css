@@ -213,6 +213,7 @@ a:hover {
   display: grid;
   place-items: center;
   margin-bottom: 3rem;
+  min-height: 100vh;
 }
 
 .header__image img {
@@ -225,7 +226,7 @@ a:hover {
 
 .header__info .header__info__heading {
   padding: 0 10%;
-  font-size: 5rem;
+  font-size: clamp(4rem,2vw,5rem);
   line-height: 1.2;
 }
 
